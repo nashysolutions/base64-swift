@@ -7,11 +7,16 @@ let package = Package(
     products: [
         .library(
             name: "Base64Swift",
-            targets: ["Base64Swift"]),
+            targets: ["Base64Swift"]
+        )
     ],
     targets: [
         .target(
             name: "Base64Swift"
+        ),
+        .testTarget(
+            name: "Base64SwiftTests",
+            dependencies: ["Base64Swift"]
         )
     ]
 )
