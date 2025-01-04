@@ -26,3 +26,8 @@ Alternatively, add the dependency directly to your `Package.swift` file:
 dependencies: [
     .package(url: "https://github.com/nashysolutions/base64-swift", from: "1.0.0")
 ]
+```
+
+## Acknowledgements
+
+This project incorporates modified code from the WebAuthn Swift project, which is an open-source initiative for implementing the WebAuthn spec in Swift. We are grateful to the authors and contributors of the WebAuthn Swift project for their pioneering efforts in web authentication.
